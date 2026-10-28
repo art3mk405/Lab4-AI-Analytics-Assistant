@@ -1,0 +1,8 @@
+{
+  "raw_payments": 11330,
+  "valid_payments": 11330,
+  "rejected_payments": 0,
+  "exact_payment_duplicates": 0,
+  "payments_before_registration": 0,
+  "missing_user_age": 2
+}

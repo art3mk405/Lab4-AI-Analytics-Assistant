@@ -1,0 +1,32 @@
+{
+  "verified_at_utc": "2026-10-28T01:09:08.881295+00:00",
+  "executed_code_cells": 10,
+  "tests_passed": 22,
+  "model_runs": {
+    "eda": {
+      "status": "saved_validated",
+      "source_log": "20261027_210425_883131_eda.json",
+      "model": "qwen2.5:7b",
+      "items": 3
+    },
+    "hypotheses": {
+      "status": "saved_validated",
+      "source_log": "20261027_210904_311439_hypotheses.json",
+      "model": "qwen2.5:7b",
+      "items": 5
+    },
+    "anomaly": {
+      "status": "saved_validated",
+      "source_log": "20261027_210707_396402_anomaly.json",
+      "model": "qwen2.5:7b",
+      "items": 3
+    },
+    "summary": {
+      "status": "saved_validated",
+      "source_log": "20261027_210744_253688_summary.json",
+      "model": "qwen2.5:7b",
+      "items": 3
+    }
+  },
+  "note": "Structure and numeric evidence validated. Human review and corrections are in the notebook and report."
+}

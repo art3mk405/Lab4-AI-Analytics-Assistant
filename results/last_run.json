@@ -1,0 +1,9 @@
+{
+  "live": true,
+  "model": "qwen2.5:7b",
+  "only": "hypotheses",
+  "completed": [
+    "hypotheses"
+  ],
+  "failures": []
+}

@@ -1,0 +1,16 @@
+{
+  "metric": "revenue_usd",
+  "before_period": [
+    "2024-04-29",
+    "2024-05-03"
+  ],
+  "after_period": [
+    "2024-05-06",
+    "2024-05-10"
+  ],
+  "before": 19425.64,
+  "after": 17991.01,
+  "delta": -1434.63,
+  "change_pct": -7.385239302282962,
+  "same_weekdays": true
+}

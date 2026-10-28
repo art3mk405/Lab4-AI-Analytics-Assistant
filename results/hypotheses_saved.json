@@ -1,0 +1,282 @@
+{
+  "status": "saved_validated",
+  "model": "qwen2.5:7b",
+  "task": "hypotheses",
+  "facts": {
+    "F001": {
+      "label": "Періоди порівняння",
+      "value": "база ['2024-04-29', '2024-05-03']; новий період ['2024-05-06', '2024-05-10']",
+      "unit": ""
+    },
+    "F002": {
+      "label": "payments; база",
+      "value": 2390,
+      "unit": ""
+    },
+    "F003": {
+      "label": "payments; новий період",
+      "value": 2232,
+      "unit": ""
+    },
+    "F004": {
+      "label": "paying_users; база",
+      "value": 1730,
+      "unit": ""
+    },
+    "F005": {
+      "label": "paying_users; новий період",
+      "value": 1642,
+      "unit": ""
+    },
+    "F006": {
+      "label": "avg_payment_usd; база",
+      "value": 8.13,
+      "unit": ""
+    },
+    "F007": {
+      "label": "avg_payment_usd; новий період",
+      "value": 8.06,
+      "unit": ""
+    },
+    "F008": {
+      "label": "revenue_usd: before",
+      "value": 19425.64,
+      "unit": ""
+    },
+    "F009": {
+      "label": "revenue_usd: after",
+      "value": 17991.01,
+      "unit": ""
+    },
+    "F010": {
+      "label": "revenue_usd: delta; зменшення",
+      "value": -1434.63,
+      "unit": ""
+    },
+    "F011": {
+      "label": "revenue_usd: change_pct",
+      "value": -7.39,
+      "unit": ""
+    },
+    "F012": {
+      "label": "app=mobile; revenue_usd: before",
+      "value": 18119.79,
+      "unit": ""
+    },
+    "F013": {
+      "label": "app=mobile; revenue_usd: after",
+      "value": 17289.28,
+      "unit": ""
+    },
+    "F014": {
+      "label": "app=mobile; revenue_usd: delta; зменшення",
+      "value": -830.51,
+      "unit": ""
+    },
+    "F015": {
+      "label": "app=desktop; revenue_usd: before",
+      "value": 937.34,
+      "unit": ""
+    },
+    "F016": {
+      "label": "app=desktop; revenue_usd: after",
+      "value": 554.07,
+      "unit": ""
+    },
+    "F017": {
+      "label": "app=desktop; revenue_usd: delta; зменшення",
+      "value": -383.27,
+      "unit": ""
+    },
+    "F018": {
+      "label": "app=android; revenue_usd: before",
+      "value": 325.54,
+      "unit": ""
+    },
+    "F019": {
+      "label": "app=android; revenue_usd: after",
+      "value": 105.4,
+      "unit": ""
+    },
+    "F020": {
+      "label": "app=android; revenue_usd: delta; зменшення",
+      "value": -220.14,
+      "unit": ""
+    },
+    "F021": {
+      "label": "app=ios; revenue_usd: before",
+      "value": 42.97,
+      "unit": ""
+    },
+    "F022": {
+      "label": "app=ios; revenue_usd: after",
+      "value": 42.26,
+      "unit": ""
+    },
+    "F023": {
+      "label": "app=ios; revenue_usd: delta; зменшення",
+      "value": -0.71,
+      "unit": ""
+    },
+    "F024": {
+      "label": "country_code=ZA; revenue_usd: before",
+      "value": 1560.74,
+      "unit": ""
+    },
+    "F025": {
+      "label": "country_code=ZA; revenue_usd: after",
+      "value": 1024.2,
+      "unit": ""
+    },
+    "F026": {
+      "label": "country_code=ZA; revenue_usd: delta; зменшення",
+      "value": -536.54,
+      "unit": ""
+    },
+    "F027": {
+      "label": "country_code=UA; revenue_usd: before",
+      "value": 4262.65,
+      "unit": ""
+    },
+    "F028": {
+      "label": "country_code=UA; revenue_usd: after",
+      "value": 4750.1,
+      "unit": ""
+    },
+    "F029": {
+      "label": "country_code=UA; revenue_usd: delta; збільшення",
+      "value": 487.45,
+      "unit": ""
+    },
+    "F030": {
+      "label": "country_code=US; revenue_usd: before",
+      "value": 2926.09,
+      "unit": ""
+    },
+    "F031": {
+      "label": "country_code=US; revenue_usd: after",
+      "value": 3412.57,
+      "unit": ""
+    },
+    "F032": {
+      "label": "country_code=US; revenue_usd: delta; збільшення",
+      "value": 486.48,
+      "unit": ""
+    },
+    "F033": {
+      "label": "country_code=ES; revenue_usd: before",
+      "value": 1315.73,
+      "unit": ""
+    },
+    "F034": {
+      "label": "country_code=ES; revenue_usd: after",
+      "value": 849.35,
+      "unit": ""
+    },
+    "F035": {
+      "label": "country_code=ES; revenue_usd: delta; зменшення",
+      "value": -466.38,
+      "unit": ""
+    },
+    "F036": {
+      "label": "country_code=GB; revenue_usd: before",
+      "value": 1072.62,
+      "unit": ""
+    },
+    "F037": {
+      "label": "country_code=GB; revenue_usd: after",
+      "value": 677.79,
+      "unit": ""
+    },
+    "F038": {
+      "label": "country_code=GB; revenue_usd: delta; зменшення",
+      "value": -394.83,
+      "unit": ""
+    },
+    "F039": {
+      "label": "feature_type_id=1; revenue_usd: before",
+      "value": 15887.79,
+      "unit": ""
+    },
+    "F040": {
+      "label": "feature_type_id=1; revenue_usd: after",
+      "value": 14754.43,
+      "unit": ""
+    },
+    "F041": {
+      "label": "feature_type_id=1; revenue_usd: delta; зменшення",
+      "value": -1133.36,
+      "unit": ""
+    },
+    "F042": {
+      "label": "feature_type_id=2; revenue_usd: before",
+      "value": 3537.85,
+      "unit": ""
+    },
+    "F043": {
+      "label": "feature_type_id=2; revenue_usd: after",
+      "value": 3236.58,
+      "unit": ""
+    },
+    "F044": {
+      "label": "feature_type_id=2; revenue_usd: delta; зменшення",
+      "value": -301.27,
+      "unit": ""
+    }
+  },
+  "items": [
+    {
+      "title": "Зменшення виручки",
+      "observation": "Виручка знизилась.",
+      "hypothesis": "Можливо, збільшилось число користувачів, які не робили покупок.",
+      "check": "Порівняти кількість платників в обох періодах.",
+      "evidence_ids": [
+        "F010",
+        "F011"
+      ]
+    },
+    {
+      "title": "Зменшення виручки для мобільного застосунку",
+      "observation": "Виручка знизилась для мобільного застосунку.",
+      "hypothesis": "Можливо, користувачі стали рідше використовувати мобільний застосунок.",
+      "check": "Порівняти кількість покупок у мобільному застосунку в обох періодах.",
+      "evidence_ids": [
+        "F012",
+        "F013"
+      ]
+    },
+    {
+      "title": "Збільшення виручки для України",
+      "observation": "Виручка збільшилася для України.",
+      "hypothesis": "Можливо, збільшилося число платників або середнє значення платежу у Україні.",
+      "check": "Порівняти кількість платників та середню вартість покупки у Україні в обох періодах.",
+      "evidence_ids": [
+        "F025",
+        "F028"
+      ]
+    },
+    {
+      "title": "Зменшення виручки для Італії",
+      "observation": "Виручка знизилась для Італії.",
+      "hypothesis": "Можливо, збільшилося число користувачів, які не робили покупок у Італії.",
+      "check": "Порівняти кількість платників в обох періодах для Італії.",
+      "evidence_ids": [
+        "F034",
+        "F035"
+      ]
+    },
+    {
+      "title": "Зменшення виручки для функціоналу типу 1",
+      "observation": "Виручка знизилась для функціоналу типу 1.",
+      "hypothesis": "Можливо, збільшилося число користувачів, які не робили покупок в цьому сегменті.",
+      "check": "Порівняти кількість платників в обох періодах для функціоналу типу 1.",
+      "evidence_ids": [
+        "F039",
+        "F041"
+      ]
+    }
+  ],
+  "log_file": "C:\\Users\\Asus\\Documents\\ChatGPT\\міпа\\outputs\\lab4\\results\\llm_runs\\20261027_210904_311439_hypotheses.json",
+  "original_timestamp": "2026-10-27T19:09:04.311439+00:00",
+  "validation_note": "Збережена справжня відповідь Ollama. Нового API-запиту не було; зміст потребує оцінки аналітика."
+}

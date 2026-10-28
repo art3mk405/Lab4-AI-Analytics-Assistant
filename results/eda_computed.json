@@ -1,0 +1,134 @@
+{
+  "profile": {
+    "rows": 11330,
+    "columns": [
+      {
+        "column": "user_id",
+        "dtype": "int64",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 7781
+      },
+      {
+        "column": "pay_dt",
+        "dtype": "str",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 11297
+      },
+      {
+        "column": "amount_usd",
+        "dtype": "float64",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 488
+      },
+      {
+        "column": "feature_type_id",
+        "dtype": "int64",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 2
+      }
+    ],
+    "duplicates": 0,
+    "distributions": {
+      "amount_usd": {
+        "kind": "numeric",
+        "min": 5.01,
+        "max": 19.99,
+        "mean": 8.274455428067078,
+        "median": 5.99,
+        "q1": 5.99,
+        "q3": 6.9,
+        "nonfinite": 0,
+        "iqr_flags": 2561,
+        "histogram": {
+          "counts": [
+            8038,
+            712,
+            313,
+            530,
+            77,
+            102,
+            51,
+            45,
+            84,
+            1378
+          ],
+          "edges": [
+            5.01,
+            6.507999999999999,
+            8.006,
+            9.504,
+            11.001999999999999,
+            12.499999999999998,
+            13.998,
+            15.495999999999999,
+            16.994,
+            18.491999999999997,
+            19.99
+          ]
+        }
+      }
+    }
+  },
+  "analysis": {
+    "status": "not_run",
+    "task": "eda",
+    "facts": {
+      "F001": {
+        "label": "Кількість рядків",
+        "value": 11330,
+        "unit": "рядків"
+      },
+      "F002": {
+        "label": "Повні повтори рядків; це не автоматичний доказ помилки",
+        "value": 0,
+        "unit": "рядків"
+      },
+      "F003": {
+        "label": "Пропуски у user_id",
+        "value": 0,
+        "unit": "рядків"
+      },
+      "F004": {
+        "label": "Пропуски у pay_dt",
+        "value": 0,
+        "unit": "рядків"
+      },
+      "F005": {
+        "label": "Пропуски у amount_usd",
+        "value": 0,
+        "unit": "рядків"
+      },
+      "F006": {
+        "label": "Пропуски у feature_type_id",
+        "value": 0,
+        "unit": "рядків"
+      },
+      "F007": {
+        "label": "amount_usd: mean",
+        "value": 8.274455428067078,
+        "unit": ""
+      },
+      "F008": {
+        "label": "amount_usd: median",
+        "value": 5.99,
+        "unit": ""
+      },
+      "F009": {
+        "label": "amount_usd: max",
+        "value": 19.99,
+        "unit": ""
+      },
+      "F010": {
+        "label": "amount_usd: iqr_flags",
+        "value": 2561,
+        "unit": ""
+      }
+    },
+    "items": [],
+    "message": "LLM не викликалася. Нижче лише результати Pandas. Для AI-аналізу передай OllamaClient."
+  }
+}

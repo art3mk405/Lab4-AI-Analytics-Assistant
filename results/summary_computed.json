@@ -1,0 +1,233 @@
+{
+  "status": "not_run",
+  "task": "summary",
+  "facts": {
+    "F001": {
+      "label": "2024-04-05–2024-05-10: revenue_usd",
+      "value": 92240.4,
+      "unit": ""
+    },
+    "F002": {
+      "label": "2024-04-05–2024-05-10: payments",
+      "value": 11159,
+      "unit": ""
+    },
+    "F003": {
+      "label": "2024-04-05–2024-05-10: paying_users",
+      "value": 7664,
+      "unit": ""
+    },
+    "F004": {
+      "label": "2024-04-05–2024-05-10: avg_payment_usd",
+      "value": 8.266009499059056,
+      "unit": ""
+    },
+    "F005": {
+      "label": "revenue_usd: before; ['2024-04-29', '2024-05-03'] → ['2024-05-06', '2024-05-10']",
+      "value": 19425.64,
+      "unit": ""
+    },
+    "F006": {
+      "label": "revenue_usd: after; ['2024-04-29', '2024-05-03'] → ['2024-05-06', '2024-05-10']",
+      "value": 17991.01,
+      "unit": ""
+    },
+    "F007": {
+      "label": "revenue_usd: delta; ['2024-04-29', '2024-05-03'] → ['2024-05-06', '2024-05-10']",
+      "value": -1434.63,
+      "unit": ""
+    },
+    "F008": {
+      "label": "revenue_usd: change_pct; ['2024-04-29', '2024-05-03'] → ['2024-05-06', '2024-05-10']",
+      "value": -7.385239302282962,
+      "unit": ""
+    },
+    "F009": {
+      "label": "app=mobile; revenue_usd: before",
+      "value": 18119.79,
+      "unit": ""
+    },
+    "F010": {
+      "label": "app=mobile; revenue_usd: after",
+      "value": 17289.28,
+      "unit": ""
+    },
+    "F011": {
+      "label": "app=mobile; revenue_usd: delta",
+      "value": -830.51,
+      "unit": ""
+    },
+    "F012": {
+      "label": "app=desktop; revenue_usd: before",
+      "value": 937.34,
+      "unit": ""
+    },
+    "F013": {
+      "label": "app=desktop; revenue_usd: after",
+      "value": 554.07,
+      "unit": ""
+    },
+    "F014": {
+      "label": "app=desktop; revenue_usd: delta",
+      "value": -383.27,
+      "unit": ""
+    },
+    "F015": {
+      "label": "app=android; revenue_usd: before",
+      "value": 325.54,
+      "unit": ""
+    },
+    "F016": {
+      "label": "app=android; revenue_usd: after",
+      "value": 105.4,
+      "unit": ""
+    },
+    "F017": {
+      "label": "app=android; revenue_usd: delta",
+      "value": -220.14,
+      "unit": ""
+    },
+    "F018": {
+      "label": "app=ios; revenue_usd: before",
+      "value": 42.97,
+      "unit": ""
+    },
+    "F019": {
+      "label": "app=ios; revenue_usd: after",
+      "value": 42.26,
+      "unit": ""
+    },
+    "F020": {
+      "label": "app=ios; revenue_usd: delta",
+      "value": -0.71,
+      "unit": ""
+    },
+    "F021": {
+      "label": "country_code=ZA; revenue_usd: before",
+      "value": 1560.74,
+      "unit": ""
+    },
+    "F022": {
+      "label": "country_code=ZA; revenue_usd: after",
+      "value": 1024.2,
+      "unit": ""
+    },
+    "F023": {
+      "label": "country_code=ZA; revenue_usd: delta",
+      "value": -536.54,
+      "unit": ""
+    },
+    "F024": {
+      "label": "country_code=UA; revenue_usd: before",
+      "value": 4262.65,
+      "unit": ""
+    },
+    "F025": {
+      "label": "country_code=UA; revenue_usd: after",
+      "value": 4750.1,
+      "unit": ""
+    },
+    "F026": {
+      "label": "country_code=UA; revenue_usd: delta",
+      "value": 487.45,
+      "unit": ""
+    },
+    "F027": {
+      "label": "country_code=US; revenue_usd: before",
+      "value": 2926.09,
+      "unit": ""
+    },
+    "F028": {
+      "label": "country_code=US; revenue_usd: after",
+      "value": 3412.57,
+      "unit": ""
+    },
+    "F029": {
+      "label": "country_code=US; revenue_usd: delta",
+      "value": 486.48,
+      "unit": ""
+    },
+    "F030": {
+      "label": "country_code=ES; revenue_usd: before",
+      "value": 1315.73,
+      "unit": ""
+    },
+    "F031": {
+      "label": "country_code=ES; revenue_usd: after",
+      "value": 849.35,
+      "unit": ""
+    },
+    "F032": {
+      "label": "country_code=ES; revenue_usd: delta",
+      "value": -466.38,
+      "unit": ""
+    },
+    "F033": {
+      "label": "country_code=GB; revenue_usd: before",
+      "value": 1072.62,
+      "unit": ""
+    },
+    "F034": {
+      "label": "country_code=GB; revenue_usd: after",
+      "value": 677.79,
+      "unit": ""
+    },
+    "F035": {
+      "label": "country_code=GB; revenue_usd: delta",
+      "value": -394.83,
+      "unit": ""
+    },
+    "F036": {
+      "label": "feature_type_id=1; revenue_usd: before",
+      "value": 15887.79,
+      "unit": ""
+    },
+    "F037": {
+      "label": "feature_type_id=1; revenue_usd: after",
+      "value": 14754.43,
+      "unit": ""
+    },
+    "F038": {
+      "label": "feature_type_id=1; revenue_usd: delta",
+      "value": -1133.36,
+      "unit": ""
+    },
+    "F039": {
+      "label": "feature_type_id=2; revenue_usd: before",
+      "value": 3537.85,
+      "unit": ""
+    },
+    "F040": {
+      "label": "feature_type_id=2; revenue_usd: after",
+      "value": 3236.58,
+      "unit": ""
+    },
+    "F041": {
+      "label": "feature_type_id=2; revenue_usd: delta",
+      "value": -301.27,
+      "unit": ""
+    },
+    "F042": {
+      "label": "2024-04-05–2024-05-10; app=mobile; виручка",
+      "value": 81732.6,
+      "unit": "USD"
+    },
+    "F043": {
+      "label": "2024-04-05–2024-05-10; app=ios; виручка",
+      "value": 4845.26,
+      "unit": "USD"
+    },
+    "F044": {
+      "label": "2024-04-05–2024-05-10; app=desktop; виручка",
+      "value": 3253.37,
+      "unit": "USD"
+    },
+    "F045": {
+      "label": "2024-04-05–2024-05-10; app=android; виручка",
+      "value": 2409.17,
+      "unit": "USD"
+    }
+  },
+  "items": [],
+  "message": "LLM не викликалася. Нижче лише результати Pandas. Для AI-аналізу передай OllamaClient."
+}
